@@ -1,0 +1,46 @@
+ will write a line and hit escape and o to insert a new line and hit escape
+I will write a line and hit escape and o to insert a new line and hit escape
+I will write a line and hit escape and shift-O to insert a new line above and hit escape
+I will write a line and hit escape and shift-O to insert a new line above and hit escape
+
+I will navigate from beginning of line to end of line using 0 and $
+
+I will go to the top of the document by hitting gg
+I will go to the bottom of the document using shift-G
+I will delete the first line by using 0shift-D
+I will paste it back using p
+
+I will delete the next line using 0dd
+I will paste it back using p
+I will repeat that using .
+
+I will undo using u
+I will undo again using u
+
+I will select a line using 0shift-V
+I will remove everything using %d
+I will undo using u
+
+I will go down a line using j
+I will go up a line using k
+I will go left 1 using h
+I will go right 1 using l
+I will go up four lines using 4k
+I will go down four lines using 4j
+
+I will select 2 lines below this using 0shift-V2j
+I will select 4 lines above this using 0shift-V4j
+I will select 3 lines above this using 0shift-V3k
+
+I will save using command-S (using MacVim, control-s using gVim)
+I will save using :w!
+
+I will navigate by word using w
+I will navigate by many words using 3w
+I will replace poprely spelled words using 3wcw
+I will undo those changes using u
+I will delete this line using shift-D and undo with u
+I will delete these words using 3wd2w, saying "move 3 words, delete 2 words"
+I will undo using u
+I will replace this with bacon using 3wcw "bacon" and undo with u
+I will save and quit with :x
